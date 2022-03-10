@@ -26,7 +26,7 @@ if (!empty($_POST)) {
           $_SESSION['idUser']= $data['idusuario'];
           $_SESSION['nombre']=$data['nombre'];
           $_SESSION['emailnuevo']=$data['email'];
-          $_SESSION['user']=$data['usuario'];
+          $_SESSION['userer']=$data['usuario'];
           $_SESSION['rol']=$data['rol'];
 
           header('location: sistema/');
