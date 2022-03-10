@@ -24,7 +24,7 @@ if (!empty($_POST)) {
           
           $_SESSION['active']= true;
           $_SESSION['idUser']= $data['idusuario'];
-          $_SESSION['nombre']=$data['nombre'];
+          $_SESSION['nuevoingreso']=$data['nombre'];
           $_SESSION['emailnuevo']=$data['email'];
           $_SESSION['userer']=$data['usuario'];
           $_SESSION['rol']=$data['rol'];
